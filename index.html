@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #area
+        {
+            background-color: blue;
+            color: aliceblue;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:  20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+        }
+       /*
+       Fventos no js e tudo aquilo que pode acontecer com um  elemento ex: eventos de mouse, arrastar etc
+       
+       Funcoes sao finalidades que sao apenas disparadas por um "gatilho" seja um clique de mouse etc. pode aparecer como:
+
+       function acaotal(algumparametro)
+       {}
+
+       */
+    </style>
+</head>
+<body> 
+    <div id="area">
+        vem cá!
+    </div>  
+
+    <script>
+        var quadrado = window.document.getElementById('area')
+        quadrado.addEventListener('click', clicar)
+        quadrado.addEventListener('mouseenter', entrar)
+        quadrado.addEventListener('mouseout', sair)
+
+        function entrar()
+        {
+            quadrado.innerText = 'clica em mim :)'
+        }
+
+        function clicar()
+        {
+            quadrado.innerText = 'AI!! ISSO DOEU!'
+            quadrado.style.background = 'red'
+        }
+
+        function sair()
+        {
+            quadrado.innerText = 'volta aqui...'
+            quadrado.style.background = 'blue'
+        }
+    </script>
+</body>
+</html>
