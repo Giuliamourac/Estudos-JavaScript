@@ -1,5 +1,5 @@
 # Estudos JS
-Meus estudos de java script
+Meus estudos de java script. <br>
 Início: 06/06/2025
 
 ---
