@@ -8,6 +8,7 @@ Início: 06/06/2025
 
 - [Mouse events](MouseEvent)
 - [Get](https://github.com/Giuliamourac/DataHora.git)
+- [Objetos](https://github.com/Giuliamourac/objeto-em-js.git)
 
 ## Exercícios 🐱‍👤
 
